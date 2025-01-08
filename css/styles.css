@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.hero {
+    background: linear-gradient(to bottom right, #6c63ff, #ff6584);
+    color: white;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 2.5rem;
+}
+.post-card {
+    transition: transform 0.2s;
+}
+.post-card:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
