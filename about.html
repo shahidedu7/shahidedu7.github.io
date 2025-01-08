@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Blog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">ML Tutorials</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tutorials">Tutorials</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1>Welcome to ML Tutorials</h1>
+        <p>Your one-stop destination for learning machine learning concepts and applications.</p>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<div class="container my-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <h2>About US</h2>
+            <p>This is about us.</p>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-lg-4">
+            <h3 class="mb-4">Categories</h3>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="#">Supervised Learning</a></li>
+                <li class="list-group-item"><a href="#">Unsupervised Learning</a></li>
+                <li class="list-group-item"><a href="#">Neural Networks</a></li>
+                <li class="list-group-item"><a href="#">Data Preprocessing</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Pagination -->
+<div class="container my-5">
+    <div id="articles-container" class="row"></div>
+    <nav aria-label="Page navigation" class="mt-4">
+        <ul id="pagination" class="pagination justify-content-center"></ul>
+    </nav>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2025 ML Tutorials. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
